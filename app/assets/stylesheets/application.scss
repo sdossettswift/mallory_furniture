@@ -2,6 +2,8 @@
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
 @import 'https://fonts.googleapis.com/css?family=Prompt|Slabo+27px';
+@import 'https://fonts.googleapis.com/css?family=Goudy+Bookletter+1911';
+
 
 $navy: #34495e;
 p{
@@ -11,7 +13,8 @@ p{
 header{
   background-color: $navy;
   color: white;
-  font-family: 'Slabo 27px', serif;
+  font-family: 'Goudy Bookletter 1911', serif;
+  // font-family: 'Slabo 27px', serif;
   padding: 5px;
   text-align: center;
 
@@ -29,20 +32,21 @@ header{
     margin-right: 25vh;
     padding: 15px;
     border-radius: 5px;
+
     h2{
-      font-family: 'Slabo 27px', serif;
+      font-family: 'Goudy Bookletter 1911', serif;
         color: white;
     }
 
     h3{
       color: white;
-      font-family: 'Avenir';
+      font-family: 'Goudy Bookletter 1911', serif;
     }
 
     .button{
+      font-family: 'Avenir'; 
       color: $navy;
     }
-
 
   }
 }
