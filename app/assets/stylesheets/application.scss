@@ -1,0 +1,48 @@
+@import 'https://necolas.github.io/normalize.css/3.0.3/normalize.css';
+@import 'bootstrap-sprockets';
+@import 'bootstrap';
+@import 'https://fonts.googleapis.com/css?family=Prompt|Slabo+27px';
+
+$navy: #34495e;
+p{
+  font-family: 'Avenir';
+  color: navy;
+}
+header{
+  background-color: $navy;
+  color: white;
+  font-family: 'Slabo 27px', serif;
+  padding: 5px;
+  text-align: center;
+
+}
+
+.jumbo {
+  height: 100vh; //visual height units
+  background: image_url("hero.jpg");
+  background-size: cover; // scale as the .jumbo grows and shrinks
+  background-position: center; // center the bg instead of putting at top-left
+
+  .littlebox {
+    float: right;
+    margin-top: 45vh;
+    margin-right: 25vh;
+    padding: 15px;
+    border-radius: 5px;
+    h2{
+      font-family: 'Slabo 27px', serif;
+        color: white;
+    }
+
+    h3{
+      color: white;
+      font-family: 'Avenir';
+    }
+
+    .button{
+      color: $navy;
+    }
+
+
+  }
+}
