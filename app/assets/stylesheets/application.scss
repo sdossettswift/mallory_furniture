@@ -4,9 +4,8 @@
 @import 'https://fonts.googleapis.com/css?family=Prompt|Slabo+27px';
 @import 'https://fonts.googleapis.com/css?family=Goudy+Bookletter+1911';
 
-
 $navy: #34495e;
-p{
+*{
   font-family: 'Avenir';
   color: navy;
 }
@@ -19,7 +18,17 @@ header{
   text-align: center;
 
 }
-
+footer{
+  display: block;
+  font-family: 'Avenir';
+  text-align: center;
+}
+.block{
+  height: 450px;
+}
+.col-sm-4{
+  height: 600px;
+}
 .jumbo {
   height: 100vh; //visual height units
   background: image_url("hero.jpg");
@@ -44,7 +53,7 @@ header{
     }
 
     .button{
-      font-family: 'Avenir'; 
+      font-family: 'Avenir';
       color: $navy;
     }
 

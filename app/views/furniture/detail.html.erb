@@ -1,0 +1,38 @@
+<nav>
+  <%= link_to "/" do %>
+    <span class="glyphicon glyphicon-home" aria-hidden="true"></span>
+  <% end %>
+
+  <%= link_to "/furniture" do %>
+    <span class="glyphicon glyphicon-arrow-left" aria-hidden="true"></span>
+  <% end %>
+</nav>
+
+<div class="col-md-8">
+    <%= image_tag "#{@furniture.img_file}.jpg" %>
+</div>
+
+<div class="col-md-4">
+    <h2><%= @furniture.item %></h1>
+    <h3 class="price">Price</h3>
+    $<%= @furniture.price %>
+
+    <h3>Description</h3>
+    <p>  <%= @furniture.description %></p>
+    <h3>Dimensions</h3>
+    <p>
+        Width:
+        <%= @furniture.dimension_w %>
+    </p>
+    <p>
+        Length:
+        <%= @furniture.dimension_l %>
+    </p>
+    <p>
+        Height:
+        <%= @furniture.dimension_h %>
+    </p>
+
+</div>
+<!--
+<%= debug params %> -->

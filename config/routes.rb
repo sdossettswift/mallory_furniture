@@ -3,9 +3,9 @@ Rails.application.routes.draw do
     # See how all your routes lay out with "rake routes".
 
     # You can have the root of your site routed with "root"
-    root 'home#index'
-    get 'furniture/:pid' => 'furniture#detail'
-    get 'furniture/' => 'furniture#index'
+    root  'home#index'
+    get   'furniture/:pid'  => 'furniture#detail'
+    get   'furniture/'      => 'furniture#index'
 
 
 

@@ -1,5 +1,22 @@
+<nav>
+  <%= link_to "/" do %>
+    <span class="glyphicon glyphicon-home" aria-hidden="true"></span>
+  <% end %>
+</nav>
 
-<ul>
-  <% @furniture_list.each do |furniture|%>
-  <li><%= furniture.item %> </li><% end %>
-</ul>
+<% @furniture_list.each do |furniture|%>
+<div class="col-sm-4">
+    <div class="thumbnail">
+        <%= image_tag "#{furniture.img_file}.jpg" %>
+
+    </div>
+    <%= furniture.item %>
+    <br/>
+    $ <%= furniture.price %>
+    <br/>
+    <p>
+            <a href="/furniture/<%= furniture.pid %>" class="btn btn-default" role="button">More Info</a>
+</p>
+</div>
+
+<% end %>
