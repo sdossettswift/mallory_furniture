@@ -3,14 +3,17 @@
 @import 'bootstrap';
 @import 'https://fonts.googleapis.com/css?family=Prompt|Slabo+27px';
 @import 'https://fonts.googleapis.com/css?family=Goudy+Bookletter+1911';
+@import 'furniture';
+@import 'home';
 
 $navy: #34495e;
+$teal: #16a085;
 *{
   font-family: 'Avenir';
   color: navy;
 }
 header{
-  background-color: $navy;
+  background-color: $teal;
   color: white;
   font-family: 'Goudy Bookletter 1911', serif;
   // font-family: 'Slabo 27px', serif;

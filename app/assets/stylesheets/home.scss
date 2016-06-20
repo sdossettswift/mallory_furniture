@@ -1,3 +1,4 @@
+$navy: #34495e;
 .jumbo {
   height: 100vh; //visual height units
   background: image_url("hero.jpg");
@@ -12,13 +13,17 @@
     border-radius: 5px;
 
     h2{
-      font-family: 'Slabo 27px', serif;
         color: white;
+        padding-right: 20px;
+        padding-bottom: 15px;
+        font-family: 'Lora', serif;
+        font-weight: bold;
     }
 
     h3{
       color: white;
       font-family: 'Avenir';
+      padding-right: 20px;
     }
 
     .button{
@@ -26,4 +31,7 @@
     }
 
   }
+
+  $font-color: #0D0A11;
+
 }
